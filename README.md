@@ -17,6 +17,8 @@ $ npm install
 
 ## Running the app
 
+Add your connection string into Config/Key{mongoURI} before run app
+
 ```bash
 # development
 $ npm run start
