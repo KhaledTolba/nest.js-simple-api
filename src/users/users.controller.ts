@@ -3,7 +3,6 @@ import { UsersService } from './users.service';
 import { User } from './interfaces/users.interface';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { AuthenticatedGuard } from '../auth/authenticated.guard'; 
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 

@@ -3,7 +3,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
-// import { Mongoose } from '@nestjs/mongoose';
 import { MongooseModule } from '@nestjs/mongoose';
 import Config from './config/keys';
 
